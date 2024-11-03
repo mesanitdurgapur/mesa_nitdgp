@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.App {
+  text-align: center;
+}
+.carousel-item img{
+    height: 90vh;
+    width: 100%;
+  }
+  .about-us{
+    max-height: fit-content;
+   width: 60vw;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    text-align: start;
+    /* background-color: #F5F5F5; */
+    /* background-color: white; */
+  }
+  .about-sec,.fac-sec,.abtfac{
+    background-color: #F5F5F5;
+  }
+  /* .about-sec{
+    background-image: url(../assets/dot.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+  } */
+  .about-us .heading{
+    padding-top: 30px;
+    padding-bottom: 20px
+  }
+  .about-content{
+    border: none;
+    border-radius: 5px;
+    /* background-color: var(--primary15); */
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    max-height: fit-content;
+  }
+  .highlights{
+    color: var(--accent);
+  }
+  .heading{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+  }
+  .faculty-advisors{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    margin-top: 40px;
+    /* min-height: 60vh; */
+    min-height: fit-content;
+  }
+  .fac-container{
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+    min-height: fit-content;
+    /* margin-bottom: 140px; */
+    padding-bottom: 140px;
+  }
+  .fac-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    min-height: fit-content;
+  }
+  .fac-info{
+    width: 35vw;
+    height: 160px;
+    position: relative;
+    top: -40px;
+    /* background-color: #070403; */
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(13, 28, 39, 0.6) 0px 8px 60px -10px;
+  }
+  .fac-text{
+    position: relative;
+    top: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+  }
+  
+  .fac-box img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 5px solid var(--accent);
+  }
+  @media(max-width:767px){
+    a{
+        cursor: pointer;
+    }
+    .carousel-item img{
+      height: 80vh;
+    }
+    .about-us{
+      width: 80vw;
+    }
+    .fac-container{
+        display: flex;
+    flex-direction: column;
+    }
+    .fac-info{
+        width: 70vw;
+    }
+  }
+  
+  

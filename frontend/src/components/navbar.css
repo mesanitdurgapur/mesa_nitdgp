@@ -1,0 +1,32 @@
+:root{
+    --text: #070403;
+    --background: #fbf6f4;
+    /* --primary: #d36645; */
+    --primary: #CC5500;
+    --secondary: #f2987c;
+    --accent: #f77d55;
+    --primary5: hsl(35, 59%, 54%, 5%);
+    --primary15: hsl(35, 59%, 54%, 15%);
+    --primary20: hsl(35, 59%, 54%, 20%);
+  }
+.navbar{
+    background-color: var(--primary) !important;
+    height: fit-content;
+}
+.nav-item{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+#navbarSupportedContent{
+    background-color: var(--primary) !important;
+    padding: 0px;
+    margin: 0px;
+}
+.active{
+    font-weight: 600;
+}
+.nav-link{
+    cursor: pointer;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.628);
+}
