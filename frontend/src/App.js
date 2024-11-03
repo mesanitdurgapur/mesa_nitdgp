@@ -7,6 +7,8 @@ import Home from "./pages/home";
 import Event from "./pages/event";
 import Gallery from "./pages/gallery";
 import Contact from "./pages/contact";
+import React from 'react';
+
 
 function App() {
   return (

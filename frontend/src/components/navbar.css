@@ -9,9 +9,16 @@
     --primary15: hsl(35, 59%, 54%, 15%);
     --primary20: hsl(35, 59%, 54%, 20%);
   }
+  li{
+    letter-spacing: 1.5px;
+  }
 .navbar{
     background-color: var(--primary) !important;
     height: fit-content;
+}
+.navbar-brand img{
+    width: 90px;
+    height: 90px;
 }
 .nav-item{
     padding: 10px 20px;
@@ -22,11 +29,19 @@
     padding: 0px;
     margin: 0px;
 }
-.active{
-    font-weight: 600;
-}
+
 .nav-link{
     cursor: pointer;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.628);
+}
+@media(max-width:767px){
+    .navbar-brand img{
+        width: 60px;
+        height: 60px;
+    }
+    .nav-item{
+        padding: 5px 20px;
+        font-size: 20px;
+    }
 }

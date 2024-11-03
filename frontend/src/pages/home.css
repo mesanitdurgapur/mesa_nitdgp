@@ -3,7 +3,15 @@
 .App {
   text-align: center;
 }
+h1{
+  letter-spacing: 2px;
+}
+.about-us p{
+  line-height: 1.8;
+  font-size: 16px;
+}
 .carousel-item img{
+  /* object-fit: cover; */
     height: 90vh;
     width: 100%;
   }
@@ -17,15 +25,24 @@
     /* background-color: #F5F5F5; */
     /* background-color: white; */
   }
-  .about-sec,.fac-sec,.abtfac{
+  /* .about-sec,.fac-sec,.abtfac{
     background-color: #F5F5F5;
-  }
-  /* .about-sec{
-    background-image: url(../assets/dot.jpeg);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
   } */
+  .about-sec.fac-sec,.abtfac{
+    /* background-image: url(../assets/dot.jpeg); */
+    /* background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom; */
+   
+    background: linear-gradient(135deg, #f5f7fa, #d6dde4); /* Soft cool gray-blue gradient */
+    color: #333;
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    margin: auto;
+  }
   .about-us .heading{
     padding-top: 30px;
     padding-bottom: 20px
@@ -98,14 +115,18 @@
     border: 5px solid var(--accent);
   }
   @media(max-width:767px){
+    h1{
+      font-size: 35px !important;
+    }
     a{
         cursor: pointer;
     }
     .carousel-item img{
-      height: 80vh;
+      height: 50vh;
     }
     .about-us{
       width: 80vw;
+      font-size: 15px;
     }
     .fac-container{
         display: flex;
@@ -114,6 +135,6 @@
     .fac-info{
         width: 70vw;
     }
-  }
+}
   
   

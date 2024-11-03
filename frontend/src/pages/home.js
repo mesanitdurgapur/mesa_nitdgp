@@ -9,9 +9,20 @@ import pic1 from "../assets/swiper/pic1.jpeg"
 import pic2 from "../assets/swiper/pic2.jpeg"
 import pic3 from "../assets/swiper/pic3.jpeg"
 import pic4 from "../assets/swiper/pic4.jpeg"
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
-export default function home() {
+export default function Home() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration in milliseconds
+      once: true, // whether animation should happen only once
+      offset: 100, // offset from the original trigger point
+    });
+  }, []);
+
   return (
    
     <>
@@ -53,9 +64,6 @@ export default function home() {
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src={pic1} alt="" />
-      </div>
-      <div class="carousel-item">
         <img src={pic2} alt="" />
       </div>
       <div class="carousel-item">
@@ -63,6 +71,9 @@ export default function home() {
       </div>
       <div class="carousel-item">
         <img src={pic4} alt="" />
+      </div>
+      <div class="carousel-item">
+        <img src={pic1} alt="" />
       </div>
     </div>
     <button
@@ -88,16 +99,16 @@ export default function home() {
 
      <div className='abtfac'>
      <div className='about-sec'>
-      <section className="about-us">
+      <section className="about-us" >
         <h1 className="heading">
           About <span className="highlights">us</span>
         </h1>
         <div className="about-content" />
-        <p>
+        <p data-aos="fade-down">
         Welcome to the Mechanical Engineering Student Association (MESA), the official student body of the Mechanical Engineering Department. With a commitment to fostering innovation, learning, and collaboration, MESA enriches the academic and professional journey of every mechanical engineering student. Through events like technical workshops, industry guest lectures, hands-on projects, and competitions, we bridge the gap between theory and practice, empowering students with essential skills and industry insights.
         </p>
         <br />
-        <p>
+        <p data-aos="fade-up">
         Join us in shaping the future of mechanical engineering, one project, one workshop, and one innovation at a time!  MESA’s mission is to support and guide students in developing technical expertise, leadership abilities, and meaningful connections. We strive to cultivate a strong community and shared purpose, shaping the future of mechanical engineering through each project, workshop, and innovation.
         </p>
       </section>
@@ -107,7 +118,7 @@ export default function home() {
       <section className="faculty-advisors">
         <h1 className="heading">Faculty <span className="highlights">advisors</span></h1>
         <div className="fac-container">
-          <div className="fac-box">
+          <div className="fac-box" data-aos="fade-right">
             <img src={fa1} alt="" />
             <div className="fac-info">
               <div className="fac-text">
@@ -116,7 +127,7 @@ export default function home() {
               </div>
             </div>
           </div>
-          <div className="fac-box">
+          <div className="fac-box" data-aos="fade-left">
             <img src={fa2} alt="" />
             <div className="fac-info">
               <div className="fac-text">

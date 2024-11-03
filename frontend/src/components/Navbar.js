@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg bg-dark bg-body-tertiary sticky-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          <img src={logo} alt="Bootstrap" width={90} height={90} />
+          <img src={logo} alt="Bootstrap" />
         </a>
         <button
           className="navbar-toggler"
