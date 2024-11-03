@@ -1,0 +1,46 @@
+/* .card-img-top{
+    height: 400px;
+}
+.card-body{
+    height: 200px;
+} */
+.card{
+    width: 18rem;
+}
+/* .event-sec{
+    margin: 0;
+    padding: 0;
+} */
+.card-title{
+    font-weight: bold;
+}
+/* .toast-container{
+    width: 90vw;
+} */
+.me-auto{
+    font-size: 20px;
+}
+.toast-body{
+    font-size: 18px;
+}
+.toast-container{
+    z-index: 5;
+    width: 95vw;
+    max-width: 95vw; 
+    font-size: 5px;
+}
+.toast{
+    background-color: #fff;
+            border: 1px solid #ddd;
+            width: 100%;
+            padding: 20px;
+}
+@media (max-width:500px){
+    .toast-container{
+        position: fixed;
+        top: 10vh;
+        height: 70vh;
+        overflow: scroll;
+        
+    }
+}
