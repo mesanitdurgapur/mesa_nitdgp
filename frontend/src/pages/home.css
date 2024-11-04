@@ -11,7 +11,6 @@ h1{
   font-size: 16px;
 }
 .carousel-item img{
-  /* object-fit: cover; */
     height: 90vh;
     width: 100%;
   }
@@ -19,38 +18,25 @@ h1{
     max-height: fit-content;
    width: 60vw;
     position: relative;
-    top: 20px;
+    top: 0px;
     margin: auto;
     text-align: start;
-    /* background-color: #F5F5F5; */
-    /* background-color: white; */
   }
-  /* .about-sec,.fac-sec,.abtfac{
-    background-color: #F5F5F5;
-  } */
-  .about-sec.fac-sec,.abtfac{
-    /* background-image: url(../assets/dot.jpeg); */
-    /* background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom; */
-   
+  .abtfac{   
     background: linear-gradient(135deg, #f5f7fa, #d6dde4); /* Soft cool gray-blue gradient */
     color: #333;
-    padding: 60px 20px;
+    padding: 20px 20px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-
     margin: auto;
   }
   .about-us .heading{
-    padding-top: 30px;
     padding-bottom: 20px
   }
   .about-content{
     border: none;
     border-radius: 5px;
-    /* background-color: var(--primary15); */
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -63,14 +49,12 @@ h1{
     text-decoration: underline;
     text-align: center;
     text-transform: uppercase;
-    font-size: 45px;
   }
   .faculty-advisors{
     width: 100%;
     position: relative;
     top: 20px;
     margin-top: 40px;
-    /* min-height: 60vh; */
     min-height: fit-content;
   }
   .fac-container{
@@ -79,7 +63,6 @@ h1{
     display: flex;
     flex-direction: row;
     min-height: fit-content;
-    /* margin-bottom: 140px; */
     padding-bottom: 140px;
   }
   .fac-box{
@@ -94,7 +77,6 @@ h1{
     height: 160px;
     position: relative;
     top: -40px;
-    /* background-color: #070403; */
     border: none;
     border-radius: 5px;
     box-shadow: rgba(13, 28, 39, 0.6) 0px 8px 60px -10px;
@@ -122,7 +104,7 @@ h1{
         cursor: pointer;
     }
     .carousel-item img{
-      height: 50vh;
+      height: 45vh;
     }
     .about-us{
       width: 80vw;

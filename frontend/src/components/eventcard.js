@@ -23,7 +23,7 @@ export default function EventCard({ eventName, eventTime, eventVenue, imageSrc, 
   return (
     <>
       {/* Card Layout */}
-      <div className="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-aos="flip-right">
+      <div className="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center" data-aos="zoom-out">
         <div className="card">
           <img src={imageSrc} className="card-img-top" alt={eventName} height={259}/>
           <div className="card-body">

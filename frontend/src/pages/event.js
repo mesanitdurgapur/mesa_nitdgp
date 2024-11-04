@@ -23,10 +23,12 @@ export default function event() {
     content:"The magic of Learning happens when theory meets practice. So, are you ready to shape your future with cutting-edge MATLAB skills? We,at MESA,Are thrilled to announce an upcoming MATLAB workshop designed to empower you with the skills to harness the full potential of MATLAB for your knowledge in numerical computing and programming.We are honored to have  Ponannda Durga Prasad to lead this workshop. This will be a two-day workshop open for all 2nd and 3rd year students, with a requirements of a fully charged laptop and basic knowledge of programming languages."
     },
     {eventName:"FAREWELL 2020-BATCH",venue:"NAB 403",time:"06:00 PM, 08/05/2024 ",image:"farewell2020.jpeg",
-    content:"Description about farewell 2020 batch."
+    content:"The Farewell Party for the Mechanical Engineering Department was an emotional and unforgettable event organized to bid a heartfelt goodbye to the outgoing batch. The juniors and faculty members came together to create an atmosphere of celebration, gratitude, and reflection, making it a fitting send-off for the seniors who had spent years contributing to the department and building cherished memories."
     },
     {eventName:"MECH-O-MANIA",venue:"Mechanical Engineering Seminar hall",time:"06:30 PM, 25/01/2024",image:"quiz.png",
-    content:"A quiz competition is like a puzzle; the more you solve, the better you become.' Farhanitrate ' and ' Prerajulisation '- Ring any bells?? Yepp you just got it right! It's Rancho's way through the lane of engineering. It's about learning and making oneself aware about how things work!  Waiting for a platform for it? Wait no more, we, at team MESA , bring you  to MECH-O-MANIA , a complete engineering related quiz.It helps you compete with peers of the same potential as you and expand your horizons of engineering."}
+    content:"A quiz competition is like a puzzle; the more you solve, the better you become.' Farhanitrate ' and ' Prerajulisation '- Ring any bells?? Yepp you just got it right! It's Rancho's way through the lane of engineering. It's about learning and making oneself aware about how things work!  Waiting for a platform for it? Wait no more, we, at team MESA , bring you  to MECH-O-MANIA , a complete engineering related quiz.It helps you compete with peers of the same potential as you and expand your horizons of engineering."},
+    {eventName:"GATEMATE",venue:"NAB 403",time:"06:00 PM, 05/03/2020",image:"gatemate.jpeg",
+    content:"The GATE Mate event was organized as a dedicated initiative to support and empower GATE aspirants. Recognizing the significance of GATE (Graduate Aptitude Test in Engineering) for students aspiring to pursue higher studies or secure prestigious jobs in the engineering sector, the event aimed to provide an environment conducive to effective preparation and self-assessment."},
   ];
   return (
     <>

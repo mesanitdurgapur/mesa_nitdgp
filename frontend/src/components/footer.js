@@ -9,19 +9,13 @@ export default function footer() {
         <div className="footer-col" id="footer-col ">
           <h4>mechanical engineering <br /> students association, <br /> nit durgapur</h4>
           <span>©2024 MESA.All rights reserved</span>
-          
-          {/*  */}
         </div>
         <div className="footer-col">
           <h4>contact us</h4>
-          
-          {/* <span><li className='dum'><a href><i className="fa-solid fa-location-dot" /> nit durgapur</a></li></span>
-          <span><li><a href><i className="fa-solid fa-phone" /> 9876543210</a></li></span>
-          <span><li><a href><i className="fa-solid fa-envelope" /> mesa@gmail.com</a></li></span> */}
           <ul>
             <li><a href="https://maps.app.goo.gl/qSyidRnBXd3zN7DZ8" target='blank'><i className="fa-solid fa-location-dot" /> Nit Durgapur</a></li>
             <li><a href="tel:+917607549708"><i className="fa-solid fa-phone" /> +91 7607549708</a></li>
-            <li><a href="mailto:mesa.me@nitdgp.ac.in"><i className="fa-solid fa-envelope" />  mesa.me@nitdgp.ac.in
+            <li><a href="mailto:mesa.me@nitdgp.ac.in" id='email'><i className="fa-solid fa-envelope" />  mesa.me@nitdgp.ac.in
 </a></li>
           </ul>
         </div>

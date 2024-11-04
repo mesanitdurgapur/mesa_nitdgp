@@ -1,8 +1,5 @@
 import React from 'react'
 import "./home.css"
-// import ex1 from "../assets/ex1.jpg"
-// import ex2 from "../assets/ex2.jpeg";
-//import ex3 from "../assets/ex3.jpeg";
 import fa1 from "../assets/fa1.jpg";
 import fa2 from "../assets/fa2.jpeg";
 import pic1 from "../assets/swiper/pic1.jpeg"

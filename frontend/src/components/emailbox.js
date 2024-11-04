@@ -43,7 +43,14 @@ export const ContactUs = () => {
         <input type="submit" value="Send" className="submit" id="liveToastBtn" />
       </form>
 
-      <div className="toast-container position-fixed top-0 end-0 p-3">
+      <div className="toast-container"
+      style={{ 
+        position: 'fixed', 
+        top: '0', 
+        right: '0', 
+        zIndex: 1050,
+        width:'90%', 
+      }}>
         <div
           id="liveToast"
           className="toast"

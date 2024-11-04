@@ -3,7 +3,6 @@
     background-color: #F5F5F5;
 }
 .contact-sec{
-    /* height: 70%; */
     width: 100%;
 }
 .contact-left{
@@ -11,8 +10,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* height: 100%;
-    margin: 20px; */
 }
 .contact-left h3{
     text-transform: capitalize;
