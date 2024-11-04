@@ -1,20 +1,10 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, } from "react-icons/fa";
 import "./teamcard.css";
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const ProfileCard = ({ name, role, image,facebook,  instagram, linkedin }) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 2000, // animation duration in milliseconds
-      once: true, // whether animation should happen only once
-      offset: 100, // offset from the original trigger point
-    });
-  }, []);
   return (
-    <div className="profile-card" data-aos="flip-left">
+    <div className="profile-card">
       <div className="profile-image">
         <img src={image} alt={name} height={300}/>
       </div>

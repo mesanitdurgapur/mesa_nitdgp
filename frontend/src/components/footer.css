@@ -35,10 +35,8 @@ ul li {
 }
 .footer-col ul li a {
   font-size: 16px;
-  /* text-transform: capitalize; */
   color: var(--text);
   text-decoration: none;
-  /* font-weight: 300; */
   display: block;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -78,22 +76,27 @@ ul li {
   background-color: white;
   transform: translateY(-10px);
 }
+#email {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
 @media (max-width: 767px) {
   a {
     cursor: pointer;
   }
   .footer-col {
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
 }
 @media (max-width: 420px) {
   .footer-col {
     width: 100%;
-    padding: 0;
+    padding: 0px;
   }
   .footer-col h4{
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
   .footer-col ul li:not(:last-child) {
     margin-bottom: 5px;

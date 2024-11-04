@@ -17,7 +17,7 @@ export default function Contact() {
     <section className='main'>
       <div className='container-fluid'>
       <div>
-        <h1>CONTACT <span className="highlights">PAGE</span></h1>
+        <h1>CONTACT <span className="highlights">US</span></h1>
       </div>
       <div className="container contact-sec" 
 >
@@ -29,7 +29,7 @@ export default function Contact() {
               <div> <h3><i className="fa-solid fa-phone" /> &nbsp; <span className="highlights">contact details</span></h3> <p>Tushar Vishwakarma : <span className="bold">+91 7607549708</span> <br />
               Mayank Singh : <span className="bold">+91 7307348597</span></p>
               </div>
-              <div> <h3><i className="fa-solid fa-envelope" /> &nbsp;<span className="highlights">mail</span> </h3> <p className='bold'>mesa.me@nitdgp.ac.in</p>
+              <div> <h3><i className="fa-solid fa-envelope" /> &nbsp;<span className="highlights">mail</span> </h3> <p className='bold'> mesa.me@nitdgp.ac.in</p>
               </div>
             </div>
           </div>
