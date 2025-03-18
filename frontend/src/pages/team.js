@@ -322,20 +322,28 @@ export default function Team() {
       linkedin: "https://www.linkedin.com/in/solomon-raj-484a69311/",
     },
     {
-      name: "Soumya",
-      role: "Event Manager",
-      image: "soumya.jpg",
-      facebook: "#",
-      instagram: "#",
-      linkedin: "#",
-    },
-    {
       name: "Suhitha",
       role: "Event Manager",
       image: "suhitha.jpeg",
       facebook: "https://www.facebook.com/share/1H361vY4rN",
       instagram: "https://www.instagram.com/suhitha_kancharla/",
       linkedin: "https://www.linkedin.com/in/suhitha-chand-kancharla-5410a5357",
+    },
+    {
+      name: "Ganesh",
+      role: "Graphic Designer",
+      image: "ganesh.jpg",
+      facebook: "https://www.facebook.com/share/1BAu9fJhex/",
+      instagram: "https://www.instagram.com/ganesh172712",
+      linkedin: "https://www.linkedin.com/in/ganesh-althi-b99072289",
+    },
+    {
+      name: "Soumya",
+      role: "Graphic Designer",
+      image: "soumya.jpg",
+      facebook: "#",
+      instagram: "#",
+      linkedin: "#",
     },
     {
       name: "Srijan",
@@ -346,14 +354,7 @@ export default function Team() {
       linkedin: "https://www.linkedin.com/in/srijan-maddheshiya-5b7574298/",
     },
     
-    {
-      name: "Ganesh",
-      role: "Graphic Designer",
-      image: "ganesh.jpg",
-      facebook: "https://www.facebook.com/share/1BAu9fJhex/",
-      instagram: "https://www.instagram.com/ganesh172712",
-      linkedin: "https://www.linkedin.com/in/ganesh-althi-b99072289",
-    },
+   
     {
       name: "Keerthana",
       role: "Video editor",
